@@ -401,7 +401,7 @@ public class QuteMonster extends Tools5eQuteBase {
 
         String spellSlots(String key, Spells spells) {
             if (spells.slots > 0) {
-                return String.format(" (%s %s-level slots)",
+                return String.format(" (%s slots)",
                         spells.slots, levelToString(key));
             }
             return "";
